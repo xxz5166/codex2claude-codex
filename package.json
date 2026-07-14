@@ -1,0 +1,48 @@
+{
+  "name": "codex2claude",
+  "version": "1.1.0",
+  "description": "File-based cooperation protocol for Claude Code and Codex",
+  "main": "src/index.js",
+  "bin": {
+    "codex2claude": "bin/codex2claude.js"
+  },
+  "scripts": {
+    "start": "node src/cli.js",
+    "coop:init": "node src/cli.js init",
+    "coop:poll:codex": "node src/cli.js poll --agent codex",
+    "coop:poll:claude": "node src/cli.js poll --agent claude",
+    "coop:watch:codex": "node src/cli.js watch --agent codex --interval 60",
+    "coop:watch:claude": "node src/cli.js watch --agent claude --interval 60",
+    "test": "node --test"
+  },
+  "keywords": [
+    "claude",
+    "codex",
+    "cli",
+    "workflow",
+    "collaboration"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.17"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xxz5166/codex2claude.git"
+  },
+  "bugs": {
+    "url": "https://github.com/xxz5166/codex2claude/issues"
+  },
+  "homepage": "https://github.com/xxz5166/codex2claude#readme",
+  "files": [
+    "bin",
+    "docs",
+    "examples",
+    "prompts",
+    "SKILL.md",
+    "src",
+    "tests",
+    "README.md",
+    "LICENSE"
+  ]
+}

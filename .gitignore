@@ -1,0 +1,16 @@
+# Runtime mailbox directories (templates kept in version control)
+.ai-coop/inbox/
+.ai-coop/archive/
+.ai-coop/state/
+
+# Dependencies
+node_modules/
+
+# Test coverage
+coverage/
+
+# Logs
+*.log
+
+# macOS
+.DS_Store
